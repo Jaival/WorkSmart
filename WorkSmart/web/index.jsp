@@ -1,24 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: admin
-  Date: 9/18/2019
-  Time: 5:30 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <meta charset="utf-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
     <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
-    <!--    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template" />-->
-    <!--    <meta name="author" content="Łukasz Holeczek" />-->
-    <!--    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard" />-->
-    <!-- Icons-->
-    <!--    <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet" />-->
-    <!--    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" />-->
-    <!--    <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />-->
-    <!-- Main styles for this application-->
     <link href="css/style.css" rel="stylesheet"/>
     <title></title>
 </head>
@@ -72,12 +57,5 @@
     </div>
 </div>
 
-<!-- Bootstrap and necessary plugins-->
-<!--    <script src="node_modules/jquery/dist/jquery.min.js"></script>-->
-<!--    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>-->
-<!--    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
-<!--    <script src="node_modules/pace-progress/pace.min.js"></script>-->
-<!--    <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>-->
-<!--    <script src="node_modules/@coreui/coreui/dist/js/coreui.min.js"></script>-->
 </body>
 </html>
