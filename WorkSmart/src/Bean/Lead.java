@@ -1,13 +1,13 @@
 package Bean;
 import java.io.Serializable;
 
-public class lead implements Serializable {
+public class Lead implements Serializable {
     private int  lead_id;
     private String lead_name;
     private String lead_email;
     private int project_id;
 
-    public lead() {
+    public Lead() {
     }
 
     public int getLead_id() {

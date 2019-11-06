@@ -1,12 +1,15 @@
 package Connection;
 
+import Bean.Lead;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class lead {
-    Connection connection;
+    private Connection connection;
+    private Lead lead = new Lead();
 
     void insert() throws SQLException {
         try {
@@ -15,7 +18,10 @@ public class lead {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        PreparedStatement preparedStatement = connection.prepareStatement("Insert into lead values (?,?,?,?)");
+        PreparedStatement preparedStatement = connection.prepareStatement("Insert into lead values (?,?,?)");
+        preparedStatement.setString(2, lead.getLead_name());
+        preparedStatement.setString(3, lead.getLead_email());
+        preparedStatement.setInt(4, lead.getProject_id());
     }
 
     void select() throws SQLException {

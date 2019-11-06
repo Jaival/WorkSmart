@@ -70,8 +70,9 @@
         </div>
     </div>
     <div class="col-sm-1">
-        <button class="btn btn-brand btn-lg btn-reddit" style="margin-bottom: 4px" type="button"></button>
-        <!-- <i class="fa fa-reddit"></i> -->+
+        <button class="btn btn-brand btn-lg btn-reddit" style="margin-bottom: 4px" type="button">
+            <!-- <i class="fa fa-reddit"></i> -->+
+        </button>
     </div>
 </div>
 </body>
