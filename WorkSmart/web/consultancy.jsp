@@ -40,23 +40,23 @@
 <div class="container-fluid">
     <div class="animated fadeIn">
         <div class="card-columns">
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Project</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Details</a>
-                    <div class="progress progress-xs my-2">
-                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
-                             aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
+            <%@ include file="showConsultancy.jsp" %>
+            <%--            <div class="card">--%>
+            <%--                <div class="card-body">--%>
+            <%--                    <h4 class="card-title">Project</h4>--%>
+            <%--                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the--%>
+            <%--                        card's--%>
+            <%--                        content.--%>
+            <%--                    </p>--%>
+            <%--                    <a href="#" class="btn btn-primary">Details</a>--%>
+            <%--                    <div class="progress progress-xs my-2">--%>
+            <%--                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"--%>
+            <%--                             aria-valuemin="0" aria-valuemax="100"></div>--%>
+            <%--                    </div>--%>
 
-                </div>
-            </div>
+            <%--                </div>--%>
+            <%--            </div>--%>
             <div class="container-fluid">
-
             </div>
         </div>
     </div>
